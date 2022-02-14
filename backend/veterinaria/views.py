@@ -72,7 +72,7 @@ def usuario(request):
         response.status_code=400
         return response         
 #fin usuario  
-
+"""
 #inicio propietario
 @csrf_exempt 
 def propietario(request): 
@@ -117,7 +117,7 @@ def propietario(request):
         response.status_code=400
         return response         
 #fin propietario  
-
+"""
 #inicio producto  
 @csrf_exempt  
 def producto(request): 

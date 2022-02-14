@@ -5,10 +5,7 @@ from . import views
 urlpatterns=[
     path('login',views.login),
     path('usuario',views.usuario),
-    path('propietario',views.propietario), 
-    path('producto',views.producto),
-    path('mascota',views.mascota),
-    path('mascotas',views.mascotas), 
+    path('producto',views.producto), 
     path('registro',views.registro),
     path('registros',views.registros), 
     path('factura',views.factura),

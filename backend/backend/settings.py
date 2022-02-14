@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.http',
     'veterinaria',
+    'mascotas',
+    'propietarios',
 ]
 
 MIDDLEWARE = [

@@ -16,9 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 
-from veterinaria import views
+from veterinaria import views 
+from mascotas import views
+from propietarios import views
 
 urlpatterns = [
     path('admin/', admin.site.urls), 
     path('veterinaria/',include('veterinaria.urls')),
+    path('mascota/',include('mascotas.urls')), 
+    path('propietario/',include('propietarios.urls')),
 ]
